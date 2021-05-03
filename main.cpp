@@ -1,5 +1,5 @@
 #include <iostream>
 
 int main() {
-	std::count << "Goodbye World" << std::endl;
+	std::count << "Hello World" << std::endl;
 }
