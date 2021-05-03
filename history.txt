@@ -1,0 +1,32 @@
+    1  cd /mnt/c/
+    2  mkdir git-majonez
+    3  cd /mnt/c/git-majonez/
+    4  git init
+    5  touch main.cpp
+    6  git add main.cpp
+    7  git commit -m"Initial commit"
+    8  git add main.cpp
+    9  git commit -m"Farewell changed"
+   10  git remote add origin https://github.com/PawBien/git-majonez.git
+   11  git push -u origin main
+   12  git push -u origin master
+   13  git branch cs
+   14  git log
+   15  git checkout cs
+   16  git log
+   17  git reset --hard
+   18  git log
+   19  git reset --hard 30689895aa192b940b14d54280622cbcfae5bfa3
+   20  git branch
+   21  git add main.cpp
+   22  git commit -m"Greetings"
+   23  git push origin cs
+   24  git checkout master
+   25  git merge cs
+   26  git status
+   27  git add main.cpp
+   28  git status
+   29  git commit
+   30  git log
+   31  history
+   32  history >> history.txt
